@@ -1,0 +1,70 @@
+# modmail-discord.js
+
+{
+  "name": "hmm",
+  "permissions": "NONE",
+  "restriction": "3",
+  "_id": "aNKQx",
+  "actions": [
+    {
+      "title": "Sarptra Bot Help Center",
+      "author": "",
+      "color": "FF0000",
+      "timestamp": "true",
+      "url": "",
+      "authorIcon": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "storage": "1",
+      "varName": "em",
+      "name": "Create Embed Message"
+    },
+    {
+      "message": "0",
+      "varName": "",
+      "info": "2",
+      "storage": "1",
+      "varName2": "txt",
+      "name": "Store Message Info"
+    },
+    {
+      "storage": "1",
+      "varName": "em",
+      "message": "Ticket opened, Your message sent to help center.\n\nYour message: **${tempVars(\"txt\")}**\n\n",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "em",
+      "message": "Sarptra's Stupid Offical bot",
+      "footerIcon": "",
+      "name": "Set Embed Footer"
+    },
+    {
+      "storage": "1",
+      "varName": "em",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "messageContent": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "storage": "0",
+      "varName": "",
+      "emoji": "4",
+      "varName2": "✅",
+      "varName3": "",
+      "name": "Add Reaction"
+    }
+  ],
+  "comType": "3"
+}
+
+
+
+
+
